@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        .container {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+        }
+        .relative {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: lightgreen;
+        }
+        .absolute {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: lightcoral;
+        }
+        .fixed {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: lightyellow;
+        }
+        .sticky {
+            position: sticky;
+            top: 20px;
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="relative">Relative Positioning</div>
+        <div class="absolute">Absolute Positioning</div>
+        <div class="fixed">Fixed Positioning</div>
+        <div class="sticky">Sticky Positioning</div>
+    </div>
+</body>
+</html>

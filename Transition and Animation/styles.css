@@ -1,0 +1,75 @@
+@keyframes misali{
+    0% {transform: translate(0);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:  width 1s ease;
+    animation: misali 2s  ease-in-out infinite alternate ;
+}
+.box1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.box2 {
+width: 100px;
+height: 100px;
+background-color: blue;
+transition: width 1s linear;
+}
+.box2:hover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 1s ease-in;
+}
+.box3:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: width 1s ease-in-out;
+}
+
+.box4:hover {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: width 1s ease-out;
+}
+.box5:hover:hover {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: width 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.box6:hover {
+    width: 200px;
+    height: 200px;
+    background-color: yellow; 
+}
